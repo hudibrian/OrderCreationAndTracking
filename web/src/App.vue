@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Create User</router-link> |
-      <router-link to="/about">View & Edit Orders</router-link>
+      <h2>Order Tracker</h2>
+      <!-- <router-link to="/">Create User</router-link> |
+      <router-link to="/about">View & Edit Orders</router-link> -->
     </div>
     <router-view/>
   </div>

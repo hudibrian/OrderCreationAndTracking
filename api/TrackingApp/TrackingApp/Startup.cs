@@ -19,6 +19,18 @@ namespace TrackingApp
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    builder =>
+                    {
+                        builder
+                        .AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials();
+                    });
+            });
             services.AddDbContext<ShippingContext>(opt =>
                 opt.UseInMemoryDatabase("tempdb"));
             services.AddMvc()
@@ -27,6 +39,7 @@ namespace TrackingApp
 
         public void Configure(IApplicationBuilder app)
         {
+            app.UseCors("AllowAll");
             app.UseMvc();
         }
     }

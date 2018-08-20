@@ -1,17 +1,24 @@
 <template>
-  <div class="home">
+<div>
+  <div>
     <CreateUser/>
   </div>
+  <div>
+    <ViewUsers></ViewUsers>
+  </div>
+</div>
 </template>
 
 <script>
 // @ is an alias to /src
 import CreateUser from '@/components/CreateUser.vue';
+import ViewUsers from '@/components/ViewUsers.vue';
 
 export default {
-  name: 'home',
+  name: 'users',
   components: {
     CreateUser,
+    ViewUsers
   },
 };
 </script>

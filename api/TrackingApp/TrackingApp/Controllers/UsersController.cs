@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using TrackingApp.Models;
 
@@ -15,12 +16,6 @@ namespace TrackingApp.Controllers
         public UsersController(ShippingContext context)
         {
             _context = context;
-
-            //if (_context.Users.Count() == 0)
-            //{
-            //    _context.Users.Add(new User { FirstName = "Brian", LastName = "Hudi", ID = 1 });
-            //    _context.SaveChanges();
-            //}
         }
 
         [HttpGet]
@@ -40,7 +35,7 @@ namespace TrackingApp.Controllers
             return item;
         }
 
-        [HttpPost]
+        [HttpPost(Name = "CreateUser")]
         public void Create(User user) {
             _context.Users.Add(user);
             _context.SaveChanges();
