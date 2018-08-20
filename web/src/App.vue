@@ -2,10 +2,8 @@
   <div id="app">
     <div id="nav">
       <h2>Order Tracker</h2>
-      <!-- <router-link to="/">Create User</router-link> |
-      <router-link to="/about">View & Edit Orders</router-link> -->
     </div>
-    <router-view/>
+    <router-view :key="$route.path"></router-view>
   </div>
 </template>
 

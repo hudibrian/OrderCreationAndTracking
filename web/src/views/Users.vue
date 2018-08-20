@@ -10,7 +10,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import CreateUser from '@/components/CreateUser.vue';
 import ViewUsers from '@/components/ViewUsers.vue';
 

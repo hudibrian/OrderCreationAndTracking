@@ -1,6 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import users from './views/Users.vue';
+import EditOrders from './views/EditOrders.vue';
+import Orders from './views/Orders.vue';
 
 Vue.use(Router);
 
@@ -14,7 +16,12 @@ export default new Router({
     {
       path: '/orders/:id',
       name: 'Create Orders',
-      component: () => import('./views/CreateOrders.vue'),
+      component: Orders,
+    },
+    {
+      path: '/edit-order/:id',
+      name: 'Edit Order',
+      component: EditOrders,
     },
   ],
 });

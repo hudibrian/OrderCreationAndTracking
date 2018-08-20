@@ -1,21 +1,16 @@
 ﻿<Properties StartupConfiguration="{E0153394-34C2-4A3A-B7FB-4BE5A5F7EC34}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TrackingApp/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TrackingApp/Models/Order.cs">
     <Files>
       <File FileName="../ShippingContextFactory.cs" Line="4" Column="73" />
-      <File FileName="TrackingApp/Controllers/UsersController.cs" Line="17" Column="32" />
-      <File FileName="TrackingApp/Controllers/OrdersController.cs" Line="37" Column="18" />
-      <File FileName="TrackingApp/Startup.cs" Line="21" Column="10" />
+      <File FileName="TrackingApp/Controllers/UsersController.cs" Line="24" Column="1" />
+      <File FileName="TrackingApp/Controllers/OrdersController.cs" Line="41" Column="1" />
+      <File FileName="TrackingApp/Models/Order.cs" Line="27" Column="26" />
+      <File FileName="TrackingApp/Models/User.cs" Line="15" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/bhudi/Documents/repos/OrderCreationAndTracking/api/TrackingApp/TrackingApp/Controllers/OrdersController.cs" relfile="TrackingApp/Controllers/OrdersController.cs" line="40" column="1" />
-      <Breakpoint file="/Users/bhudi/Documents/repos/OrderCreationAndTracking/api/TrackingApp/TrackingApp/Controllers/OrdersController.cs" relfile="TrackingApp/Controllers/OrdersController.cs" line="41" column="1" />
-      <Breakpoint file="/Users/bhudi/Documents/repos/OrderCreationAndTracking/api/TrackingApp/TrackingApp/Controllers/OrdersController.cs" relfile="TrackingApp/Controllers/OrdersController.cs" line="38" column="1" />
-      <Breakpoint file="/Users/bhudi/Documents/repos/OrderCreationAndTracking/api/TrackingApp/TrackingApp/Controllers/OrdersController.cs" relfile="TrackingApp/Controllers/OrdersController.cs" line="17" column="1" />
-      <Breakpoint file="/Users/bhudi/Documents/repos/OrderCreationAndTracking/api/TrackingApp/TrackingApp/Controllers/OrdersController.cs" relfile="TrackingApp/Controllers/OrdersController.cs" line="15" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.TrackingApp PreferredExecutionTarget="MonoDevelop.Default" />

@@ -5,12 +5,12 @@
       <tr>
         <th>First Name</th>
         <th>Last Name</th>
-        <th>Create Orders</th>
-        <th>View & Edit Orders</th>
+        <th>Orders</th>
       </tr>
       <tr v-for="(user, key) in users" v-bind:key="key">
         <td>{{user.firstName}}</td>
         <td>{{user.lastName}}</td>
+        <td><router-link v-bind:to="'orders/' + user.id">Create/View Orders</router-link></td>
       </tr>
     </table>
   </div>
@@ -35,7 +35,6 @@ export default {
       fetch('https://localhost:5001/api/users')
       .then(res => res.json())
       .then(json => {
-        console.log(json);
         this.users = json;
       })
       .catch(error => {

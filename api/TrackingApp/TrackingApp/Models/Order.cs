@@ -13,17 +13,19 @@ namespace TrackingApp.Models
         public string Street { get; set; }
 
         [Required]
-        public string city { get; set; }
+        public string City { get; set; }
 
         [Required]
-        public string state { get; set; }
+        public string State { get; set; }
 
         [Required]
+        public string ZipCode { get; set; }
+
+        [Required]
+        [Key]
         public string TrackingID { get; set; }
 
-        [ForeignKey("User")]
-        [Column(Order = 1)]
         [Required]
-        public int ID { get; set; }
+        public User User { get; set; }
     }
 }
