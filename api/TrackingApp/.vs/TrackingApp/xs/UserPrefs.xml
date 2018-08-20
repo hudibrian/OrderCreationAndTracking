@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{E0153394-34C2-4A3A-B7FB-4BE5A5F7EC34}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TrackingApp/Controllers/OrdersController.cs">
+    <Files>
+      <File FileName="../ShippingContextFactory.cs" Line="4" Column="73" />
+      <File FileName="TrackingApp/Controllers/UsersController.cs" Line="35" Column="48" />
+      <File FileName="TrackingApp/Controllers/OrdersController.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TrackingApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
